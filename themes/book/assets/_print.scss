@@ -1,0 +1,19 @@
+@media print {
+  .book-menu,
+  .book-footer {
+    display: none;
+  }
+
+  main {
+    display: block;
+  }
+
+  .book-toc {
+    flex: none;
+
+    nav {
+      position: relative;
+      width: auto;
+    }
+  }
+}
